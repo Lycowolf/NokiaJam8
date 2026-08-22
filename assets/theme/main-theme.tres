@@ -1,12 +1,26 @@
-[gd_resource type="Theme" load_steps=3 format=3 uid="uid://dxpjsxjcktnp8"]
+[gd_resource type="Theme" format=3 uid="uid://dxpjsxjcktnp8"]
 
 [ext_resource type="FontFile" uid="uid://cpxiyj34edml5" path="res://assets/fonts/nokia/nokiafc22.ttf" id="1_lmh1p"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_gv0ar"]
+bg_color = Color(1, 1, 1, 1)
+border_color = Color(0, 0, 0, 1)
+expand_margin_left = 1.0
+anti_aliasing = false
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_8m2kt"]
+bg_color = Color(0, 0, 0, 1)
+expand_margin_left = 1.0
 
 [sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_0ai8l"]
 
 [resource]
 default_font = ExtResource("1_lmh1p")
 default_font_size = 8
+Button/colors/font_color = Color(0, 0, 0, 1)
+Button/colors/font_pressed_color = Color(1, 1, 1, 1)
+Button/styles/normal = SubResource("StyleBoxFlat_gv0ar")
+Button/styles/pressed = SubResource("StyleBoxFlat_8m2kt")
 Label/colors/font_color = Color(0, 0, 0, 1)
 Label/colors/font_outline_color = Color(1, 1, 1, 1)
 Label/colors/font_shadow_color = Color(0, 0, 0, 0)
