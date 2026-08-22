@@ -1,4 +1,4 @@
-[gd_scene load_steps=8 format=3 uid="uid://5udo2ndf0wju"]
+[gd_scene format=3 uid="uid://5udo2ndf0wju"]
 
 [ext_resource type="Texture2D" uid="uid://dyckboetf4tsm" path="res://assets/img/splash-screen/nokia-background.png" id="1_3tnsw"]
 [ext_resource type="Texture2D" uid="uid://c28age8cc6amh" path="res://assets/img/splash-screen/nokia-logo.png" id="2_etaj7"]
@@ -234,31 +234,31 @@ _data = {
 &"startup": SubResource("Animation_3bsop")
 }
 
-[node name="NokiaStartup" type="Node"]
+[node name="NokiaStartup" type="Node" unique_id=26288669]
 
-[node name="Node2D" type="Node2D" parent="."]
+[node name="Node2D" type="Node2D" parent="." unique_id=770504721]
 visible = false
 
-[node name="Nokia-background" type="Sprite2D" parent="Node2D"]
+[node name="Nokia-background" type="Sprite2D" parent="Node2D" unique_id=1943489729]
 texture = ExtResource("1_3tnsw")
 centered = false
 
-[node name="Nokia-left-hand" type="Sprite2D" parent="Node2D"]
+[node name="Nokia-left-hand" type="Sprite2D" parent="Node2D" unique_id=1000298006]
 position = Vector2(-48, 25)
 texture = ExtResource("3_vfedv")
 centered = false
 
-[node name="Nokia-right-hand" type="Sprite2D" parent="Node2D"]
+[node name="Nokia-right-hand" type="Sprite2D" parent="Node2D" unique_id=662926552]
 position = Vector2(36, -12)
 texture = ExtResource("4_e762a")
 centered = false
 
-[node name="Nokia-logo" type="Sprite2D" parent="Node2D"]
+[node name="Nokia-logo" type="Sprite2D" parent="Node2D" unique_id=992507672]
 visible = false
 texture = ExtResource("2_etaj7")
 centered = false
 
-[node name="ColorRect" type="ColorRect" parent="."]
+[node name="ColorRect" type="ColorRect" parent="." unique_id=288698139]
 visible = false
 offset_left = 2.0
 offset_top = 2.0
@@ -266,7 +266,7 @@ offset_right = 82.0
 offset_bottom = 46.0
 color = Color(0, 0, 0, 1)
 
-[node name="Label" type="Label" parent="."]
+[node name="Label" type="Label" parent="." unique_id=317768457]
 visible = false
 offset_left = 2.0
 offset_top = 1.0
@@ -276,8 +276,6 @@ text = "NOKIA 7
 3310 Jam
 by @eptwalabha"
 
-[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
-libraries = {
-&"": SubResource("AnimationLibrary_obovh")
-}
-autoplay = "startup"
+[node name="AnimationPlayer" type="AnimationPlayer" parent="." unique_id=1392912772]
+libraries/ = SubResource("AnimationLibrary_obovh")
+autoplay = &"startup"

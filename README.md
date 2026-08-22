@@ -27,7 +27,7 @@ You only have to focus on your game and nothing else.
 To help you getting start, you can find a simple example with the Nokia's animated splash-screen in `./scene/NokiaStartup.tscn`.
 
 <p align="center">
-    <img alt="Nokia's startup" src="./assets/doc/nokia-startup.gif" />
+	<img alt="Nokia's startup" src="./assets/doc/nokia-startup.gif" />
 </p>
 
 ## How does it work ?
@@ -54,7 +54,7 @@ If you need to overwrite (or clear) a pixel (eg: from a background), use the a w
 The color palette and the screen orientation can be change directly from the `Main` node:
 
 <p align="center">
-    <img src="./assets/doc/main-parameters.png" alt="main node options" />
+	<img src="./assets/doc/main-parameters.png" alt="main node options" />
 </p>
 
 ## Change the color palette
@@ -62,7 +62,7 @@ The color palette and the screen orientation can be change directly from the `Ma
 This jam only allows three palettes: `ORIGINAL`, `HARSH` and `GREY`.
 
 <p align="center">
-    <img src="./assets/doc/color-palettes.png" alt="all the palettes" width="100%"/>
+	<img src="./assets/doc/color-palettes.png" alt="all the palettes" width="100%"/>
 </p>
 
 ## Screen orientation to `Portrait` / `Landscape`
@@ -87,7 +87,7 @@ But if you need this effect for your game, you can find a complete ordered dithe
 The "NOKIA 3310" effect is archived with the shader located in `./assets/shaders/nokial-3310.gdshader`
 
 <p align="center">
-    <img alt="the shader in action" src="./assets/doc/shader-main.png" />
+	<img alt="the shader in action" src="./assets/doc/shader-main.png" />
 </p>
 
 ### Color palette
